@@ -1,0 +1,42 @@
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+body{
+    display: inline-block;
+background-color: blueviolet;
+margin-right: 150px;
+margin-left: 350px;
+margin-top: 50px;
+}
+
+.left-box{
+
+height: 550px;
+width: 400px;
+background-color:rgb(25, 135, 178);
+display: inline-block
+
+
+}
+
+.right-box{
+height: 550px;
+width: 400px;
+background-color: white;
+display: inline-block;
+
+
+}
+
+.first-title{display: inline-block;}
+
+
+h1{text-align: center;
+color: rgb(255, 255, 255);
+;
+}
+
+.second-type{color: white}
