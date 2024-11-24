@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Teko:wght@300..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Teko:wght@300..700&display=swap');
+
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 45px 45px;
+}
+
+li {
+    list-style-type: none;
+    padding: 16px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 14px;
+}
+
+ul {
+    display: flex;
+    padding: 40px;
+    gap: 8px;
+}
+
+input {
+    width: 235px;
+    height: 50px;
+    margin-top: 60px;
+    border: 1px solid #BFC8E5;
+    border-radius: 4px;
+}
+
+span {
+    border: 1px solid #BFC8E6;
+    border-radius: 10px;
+    padding: 3px;
+    color: #516FD4;
+    background-color: white;
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.title {
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: left;
+    position: absolute;
+    top: 30px;
+}
+
+.text-new-users {
+    background-color: #849FFF;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.search-icon {
+    font-size: 20px;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+}
+
+.users {
+    background-color: #FBFCFF;
+    flex-direction: column;
+    width: 370px;
+    height: 200px;
+    border-radius: 15px;
+    position: relative;
+    padding: 20px;
+}
+
+.all-users {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.users-right-part {
+    position: absolute;
+    top: 40px;
+}
+
+.box-one {
+    position: absolute;
+    left: 140px;
+}
+
+.box-two {
+    position: absolute;
+    left: 140px;
+}
+
+.box-three {
+    position: absolute;
+    left: 140px;
+}
+
+.box-four {
+    position: absolute;
+    left: 140px;
+}
+
+.box-five {
+    position: absolute;
+    left: 140px;
+}
+
+.box-six {
+    position: absolute;
+    left: 140px;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.span-tags-seperate {
+    max-width: 150px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.user-attribute {
+    box-shadow: 0px 8px 23px 0px #DAE0F9B2;
+    border: 1px solid #BFC8E5;
+}
